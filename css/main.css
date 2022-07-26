@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/wave.svg);
+    background-color: #357363;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    height: 100vh;
+
+    min-width: 1080px;
+    max-width: 1920px;
+}
+
+h1 {
+    position: relative;
+
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.button-list {
+    position: relative;
+
+    width: 16vh;
+    height: 6.5vh;
+
+    border: 1px solid #28594D;
+    border-radius: 32px;
+
+    background-color: #28594D;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+
+.button-list:hover {
+    background-color: whitesmoke;
+}
+
+.button {
+    position: relative;
+
+    margin: 1.3rem auto;
+}
+
+.saving {
+    position: absolute;
+
+    width: 80vh;
+    height: 40vh;
+
+    right: 10rem;
+    top: 22rem;
+}
+
+.man-img {
+    display: flex;
+
+    position: relative;
+
+    background-image: url(../images/man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 30vh;
+    height: 50vh;
+
+    top: 35%;
+    left: 15%;
+}
+
+section {
+    display: flex;
+
+    flex-direction: column;
+
+    position: relative;
+
+    width: 52vh;
+    height: 80vh;
+
+    background-color: white;
+
+    top: 5%;
+    left: 20%;
+
+    border-radius: 10px;
+}
+
+.woman-img {
+    display: flex;
+
+    position: relative;
+
+    background-image: url(../images/woman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 45vh;
+    height: 65vh;
+
+    top: 37%;
+    left: 25%;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black;
+
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 1.15rem;
+    color: black;
+
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+input {
+    width: 41vh;
+    height: 4vh;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+
+    margin-left: 50px;
+
+    color: black;
+}
+
+.transfer-button {
+    width: 41vh;
+    height: 5vh;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+    background-color: #28594D;
+}
