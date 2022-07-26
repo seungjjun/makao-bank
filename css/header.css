@@ -1,0 +1,31 @@
+header>div {
+    display: flex;
+
+    background-color: #28594D;
+    align-items: center;
+    height: 4.3rem;
+}
+
+.menu-bar {
+    display: flex;
+
+    min-width: 1080px;
+    max-width: 1920px;
+
+    margin: 0 auto;
+}
+
+nav>ul>li {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    margin-left: 3.2rem;
+    margin-top: 0.6rem;
+}
+
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 3.2rem;
+
+}
